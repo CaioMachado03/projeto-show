@@ -41,7 +41,7 @@ public class ingressos {
         this.data = data;
     }
 
-    public void serHorario(String horario) {
+    public void setHorario(String horario) {
         this.horario = horario;
     }
 
