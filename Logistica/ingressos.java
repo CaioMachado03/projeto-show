@@ -4,10 +4,10 @@ public class ingressos {
     private String codigoIngressos;
     private String data;
     private String horario;
-    private int preço;
+    private String preço;
 
     // construtor da CLASSE INGRESSOS
-    public ingressos(String codigoIngressos, String data, String horario, int preço) {
+    public ingressos(String codigoIngressos, String data, String horario, String preço) {
         this.codigoIngressos = codigoIngressos;
         this.data = data;
         this.horario = horario;
@@ -27,7 +27,7 @@ public class ingressos {
         return horario;
     }
 
-    public int getPreço() {
+    public String getPreço() {
         return preço;
     }
 
@@ -45,7 +45,7 @@ public class ingressos {
         this.horario = horario;
     }
 
-    public void setPreço(int preço) {
+    public void setPreço(String preço) {
         this.preço = preço;
     }
 
