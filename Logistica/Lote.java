@@ -1,22 +1,22 @@
 package Logistica;
 
-public class lotedoingresso {
-    private String lote;
+public class Lote {
+    private String lotes;
     private String preçoLote;
     private String quantidadeLote;
     private String beneficioLote;
 
     // Construtor da CLASSE LOTEDOINGRESSO
-    public lotedoingresso(String lote, String preçoLote, String quantidadeLote, String beneficioLote) {
-        this.lote = lote;
+    public Lote(String lotes, String preçoLote, String quantidadeLote, String beneficioLote) {
+        this.lotes = lotes;
         this.preçoLote = preçoLote;
         this.quantidadeLote = quantidadeLote;
         this.beneficioLote = beneficioLote;
     }
 
     // memtodods getters
-    public String getLote() {
-        return lote;
+    public String getLotes() {
+        return lotes;
     }
 
     public String getPreçoLote() {
@@ -32,8 +32,8 @@ public class lotedoingresso {
     }
 
     // metodos setters
-    public void setLote(String lote) {
-        this.lote = lote;
+    public void setLotes(String lotes) {
+        this.lotes = lotes;
     }
 
     public void setPreçoLote(String preçoLote) {

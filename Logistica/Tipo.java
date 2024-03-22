@@ -1,10 +1,10 @@
 package Logistica;
 
-public class tipodeevento {
+public class Tipo {
     private String genero;
     private String faixaEtaria;
 
-    public tipodeevento(String genero, String faixaEtaria) {
+    public Tipo(String genero, String faixaEtaria) {
         this.genero = genero;
         this.faixaEtaria = faixaEtaria;
     }

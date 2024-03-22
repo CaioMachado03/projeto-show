@@ -1,17 +1,29 @@
 package Logistica;
 
-public class ingressos {
+public class Ingressos {
     private String codigoIngressos;
     private String data;
     private String horario;
     private String preço;
+    private Lote lote;
+    private Evento evento;
 
-    // construtor da CLASSE INGRESSOS
-    public ingressos(String codigoIngressos, String data, String horario, String preço) {
+    /**
+     * @param codigoIngressos
+     * @param data
+     * @param horario
+     * @param preço
+     * @param lote
+     * @param ev
+     */
+    public Ingressos(String codigoIngressos, String data, String horario, String preço, Lote lote, Evento evento) {
         this.codigoIngressos = codigoIngressos;
         this.data = data;
         this.horario = horario;
         this.preço = preço;
+        this.lote = lote;
+        this.evento = evento;
+
     }
 
     // metodos getters
@@ -31,6 +43,14 @@ public class ingressos {
         return preço;
     }
 
+    public Lote getLote() {
+        return lote;
+    }
+
+    public Evento getEvento() {
+        return evento;
+    }
+
     // metodos setters da CLASSE INGRESSOS
 
     public void setCodigoIngressos(String codigoIngressos) {
@@ -47,6 +67,14 @@ public class ingressos {
 
     public void setPreço(String preço) {
         this.preço = preço;
+    }
+
+    public void setLote(Lote lote) {
+        this.lote = lote;
+    }
+
+    public void setEvento(Evento evento) {
+        this.evento = evento;
     }
 
 }

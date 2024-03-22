@@ -1,12 +1,12 @@
 package Logistica;
 
-public class local {
+public class Local {
     private String endereço;
     private String capacidade;
     private String acessibilidade;
     private String nomeDoLocal;
 
-    public local(String endereço, String capacidade, String acessibilidade, String nomeDoLocal) {
+    public Local(String endereço, String capacidade, String acessibilidade, String nomeDoLocal) {
         this.endereço = endereço;
         this.capacidade = capacidade;
         this.acessibilidade = acessibilidade;
